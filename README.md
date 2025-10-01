@@ -23,15 +23,21 @@ ___
 - [x] Add Movie Controller
 - [x] show create movie page
 - [x] Add routes
+- [x] Add 404 page
 - [x] Ready body data
 - [x] Create movie
   - [x] Create action 
   - [x] Add service
   - [X] add model method for creating movie
 - [x] Redirect after creation
-- [ ] Add unique id for each created movie
+- [x] Add unique id for each created movie
+### Details Page
+- [ ] 
+### Search Page
+- [ ]
+### Bonuses
+-[ ] file Persistence
 
 
-- [ ] Add 404 page
 - [ ] 
 
