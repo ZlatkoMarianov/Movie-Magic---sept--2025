@@ -33,7 +33,7 @@ ___
 - [x] Add unique id for each created movie
 ### Details Page
 - [x] Add navigation button for detail page
-- [ ] Add route with param for details page
+- [x] Add route with param for details page
 - [ ] Get one movie from service
 - [ ] find movie by id from model
 - [ ] Render details page with dynamic data
