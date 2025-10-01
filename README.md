@@ -34,14 +34,12 @@ ___
 ### Details Page
 - [x] Add navigation button for detail page
 - [x] Add route with param for details page
-- [ ] Get one movie from service
-- [ ] find movie by id from model
+- [x] Get one movie from service
+- [x] find movie by id from model
 - [ ] Render details page with dynamic data
 ### Search Page
 - [ ]
 ### Bonuses
--[ ] file Persistence
-
-
-- [ ] 
+- [ ] File Persistence
+- [ ] Rating 
 
