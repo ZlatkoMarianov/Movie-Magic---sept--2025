@@ -47,6 +47,7 @@ ___
   - [x] Filter movies by title
 - [x] Remember search words
 ### Bonuses
+- [ ] Dynamic page title
 - [ ] File Persistence
 - [ ] Rating 
 
