@@ -25,16 +25,11 @@ ___
 - [x] Add routes
 - [x] Ready body data
 - [ ] Create movie
-  - [ ] Create action 
-  - [ ] Add service
+  - [x] Create action 
+  - [x] Add service
   - [ ] add model method for creating movie
 
 
 - [ ] Add 404 page
 - [ ] 
 
-
-
-
-
-- [ ] 
