@@ -20,8 +20,8 @@ ___
 - [x] Show no movies screen
 ---
 ### Create Movie
-- [ ] Add Movie Controller
-- [ ] show create movie page
+- [x] Add Movie Controller
+- [x] show create movie page
 - [ ] Add routes
 - [ ] Read body data
 - [ ] Create movie
