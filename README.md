@@ -13,7 +13,7 @@ ___
 - [x] Add Layout
 - [x] Render About Page
 ### Architecture and dynamic rendering
-- [x] Add home controler
+- [x] Add home controller
 - [x] Add movie data layer
 - [x] Add movie service
 - [x] Render movies on home page
@@ -36,9 +36,13 @@ ___
 - [x] Add route with param for details page
 - [x] Get one movie from service
 - [x] find movie by id from model
-- [ ] Render details page with dynamic data
+- [x] Render details page with dynamic data
 ### Search Page
-- [ ]
+- [ ] Show static search page
+- [ ] Render all movies
+- [ ] Modify search form
+- [ ] Filter movies
+- [ ] Remember search words
 ### Bonuses
 - [ ] File Persistence
 - [ ] Rating 
