@@ -41,10 +41,10 @@ ___
 - [x] Show static search page
 - [x] Render all movies
 - [x] Modify search form
-- [ ] Filter movies
+- [x] Filter movies
   - [x] Filter movies by year
-  - [ ] Filter movies by genre
-  - [ ] Filter movies by title
+  - [x] Filter movies by genre
+  - [x] Filter movies by title
 - [ ] Remember search words
 ### Bonuses
 - [ ] File Persistence
