@@ -45,7 +45,7 @@ ___
   - [x] Filter movies by year
   - [x] Filter movies by genre
   - [x] Filter movies by title
-- [ ] Remember search words
+- [x] Remember search words
 ### Bonuses
 - [ ] File Persistence
 - [ ] Rating 
