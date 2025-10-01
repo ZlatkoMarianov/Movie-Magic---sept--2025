@@ -21,7 +21,7 @@ ___
 - [x] Add home controler
 - [x] Add movie data layer
 - [x] Add movie service
-- [ ] Render movies on hom page
+- [x] Render movies on home page
 - [ ] Show no movies screen
 - [ ] 
 
