@@ -20,7 +20,7 @@ movieController.get('/:movieId/details', (req, res) => {
 
    const movie = movieService.getOne(movieId);
 
-   console.log(movieId);
+   console.log(movie);
 
    res.end();
 });
