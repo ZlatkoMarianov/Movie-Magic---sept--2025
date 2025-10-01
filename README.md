@@ -28,7 +28,7 @@ ___
 - [x] Create movie
   - [x] Create action 
   - [x] Add service
-  - [X] add model method for creating movie
+  - [x] add model method for creating movie
 - [x] Redirect after creation
 - [x] Add unique id for each created movie
 ### Details Page
@@ -47,7 +47,7 @@ ___
   - [x] Filter movies by title
 - [x] Remember search words
 ### Bonuses
-- [ ] Dynamic page title
+- [x] Dynamic page title
 - [ ] File Persistence
-- [ ] Rating 
+- [x] Rating 
 

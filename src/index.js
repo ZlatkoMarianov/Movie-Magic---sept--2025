@@ -7,7 +7,6 @@ const app = express();
 // setup Handlebars
 app.engine('hbs', handlebars.engine({
    extname: 'hbs',
-   defaultLayout: 'main'
 }));
 
 app.set('view engine', 'hbs');

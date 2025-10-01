@@ -5,7 +5,7 @@ const movieController = Router();
 
 movieController.get(`/create`, (req, res) => {
 
-   res.render('create', { pageTitle: 'Create Movie' });
+   res.render('create');
 });
 
 movieController.post(`/create`, (req, res) => {
@@ -19,7 +19,11 @@ movieController.get('/:movieId/details', (req, res) => {
    const movieId = req.params.movieId;
    const movie = movieService.getOne(movieId);
 
-   res.render('details', { movie, pageTitle: 'Movie Details' });
+   // TODO Prepare view data (temp solution)
+   const raitingViewData = '&#x2605;'.repeat(Math.round(movie.rating));
+
+
+   res.render('details', { movie, rating: raitingViewData });
 });
 
 movieController.get('/search', (req, res) => {
