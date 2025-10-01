@@ -42,6 +42,9 @@ ___
 - [x] Render all movies
 - [x] Modify search form
 - [ ] Filter movies
+  - [x] Filter movies by year
+  - [ ] Filter movies by genre
+  - [ ] Filter movies by title
 - [ ] Remember search words
 ### Bonuses
 - [ ] File Persistence
