@@ -1,10 +1,7 @@
 # Movie-Magic-sept-2025
-
 SoftUni JS Back End Course Project
-
 ## Development steps
 ___
-
 ### Setup
 - [x] Initialize Project
 - [x] Add Express Server `npm i express`
@@ -15,22 +12,29 @@ ___
 - [x] Render Home Page
 - [x] Add Layout
 - [x] Render About Page
-
-
-### Architecture
+### Architecture and dynamic rendering
 - [x] Add home controler
 - [x] Add movie data layer
 - [x] Add movie service
 - [x] Render movies on home page
-- [ ] Show no movies screen
+- [x] Show no movies screen
+---
+### Create Movie
+- [ ] Add Movie Controller
+- [ ] show create movie page
+- [ ] Add routes
+- [ ] Read body data
+- [ ] Create movie
+  - [ ] Create action 
+  - [ ] Add service
+  - [ ] add model method for creating movie
+
+
+- [ ] Add 404 page
 - [ ] 
 
----
-- [ ] Add routes
 
-<!-- - [ ] Setup Database Connection
-- [ ] Create Movie Model
-- [ ] Add Movie Routes
-- [ ] Implement Authentication
-- [ ] Add User Registration
-- [ ] Add Movie CRUD Operations -->
+
+
+
+- [ ] 
