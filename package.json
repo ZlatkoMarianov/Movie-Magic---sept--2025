@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev" : "node --watch rc/index.js"
+    "dev": "node --watch src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ZlatkoMarianov/Movie-Magic---sept--2025/issues"
   },
-  "homepage": "https://github.com/ZlatkoMarianov/Movie-Magic---sept--2025#readme"
+  "homepage": "https://github.com/ZlatkoMarianov/Movie-Magic---sept--2025#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
