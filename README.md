@@ -12,6 +12,7 @@ SoftUni JS Back End Course Project
 - [x] Setup static files
 - [x] Render Home Page
 - [ ] Add Layout
+- [ ] Render About Page
 - [ ]
 - [ ]
 - [ ]
