@@ -19,7 +19,7 @@ ___
 
 ### Architecture
 - [x] Add home controler
-- [ ] Add movie data layer
+- [x] Add movie data layer
 - [ ] Add movie service
 - [ ] Render movies on hom page
 - [ ] Show no movies screen
