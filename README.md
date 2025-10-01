@@ -22,8 +22,8 @@ ___
 ### Create Movie
 - [x] Add Movie Controller
 - [x] show create movie page
-- [ ] Add routes
-- [ ] Read body data
+- [x] Add routes
+- [x] Ready body data
 - [ ] Create movie
   - [ ] Create action 
   - [ ] Add service

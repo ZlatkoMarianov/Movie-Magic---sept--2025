@@ -12,11 +12,13 @@ app.engine('hbs', handlebars.engine({
 app.set('view engine', 'hbs');
 app.set('views', 'src/views');
 
-// Setup middlewares
+// Setup static middlewares
 app.use(express.static('src/public'));
+// Parse form data from req
+app.use(express.urlencoded()); 
 
 // Routes
-app.use(routes)
+app.use(routes);
 
 // Start Server
 app.listen(5000, () => console.log('Server is listening on http://localhost:5000...'));
