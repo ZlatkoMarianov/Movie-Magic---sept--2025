@@ -24,10 +24,11 @@ ___
 - [x] show create movie page
 - [x] Add routes
 - [x] Ready body data
-- [ ] Create movie
+- [x] Create movie
   - [x] Create action 
   - [x] Add service
-  - [ ] add model method for creating movie
+  - [X] add model method for creating movie
+- [x] Redirect after creation
 
 
 - [ ] Add 404 page
