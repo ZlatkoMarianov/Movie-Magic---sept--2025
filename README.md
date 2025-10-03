@@ -52,10 +52,15 @@ ___
 - [x] Rating 
 
 
+### Prerequisites
+- [x] Install MongoDB Community Server
+- [x] Install Compass GUI
+- [x] Install Mongosh GLI (Optional)
+
 ## Workshop 2 - MongoDB Database
 
 ### setup Database
-- [ ] Install mongoose `npm i mongoose`
+- [x] Install mongoose `npm i mongoose`
 - [ ] Connect to Db
   
 ### Refactor Movies to use mongoose
