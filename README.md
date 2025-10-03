@@ -67,7 +67,8 @@ ___
 - [x] Add movie model
  - [x] Create movie Schema
  - [x] Create movie model
-- [ ] Refactor movie service
+- [ ] import file movies to database
+- [ ] 
 
 - [ ] Add new resources
 
