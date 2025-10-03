@@ -48,6 +48,6 @@ ___
 - [x] Remember search words
 ### Bonuses
 - [x] Dynamic page title
-- [ ] File Persistence
+- [x] File Persistence
 - [x] Rating 
 
