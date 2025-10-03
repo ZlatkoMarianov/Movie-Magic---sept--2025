@@ -1,6 +1,6 @@
 # Movie-Magic-sept-2025
 SoftUni JS Back End Course Project
-## Development steps
+## Workshop 1 - Express and Templating
 ___
 ### Setup
 - [x] Initialize Project
@@ -50,4 +50,16 @@ ___
 - [x] Dynamic page title
 - [x] File Persistence
 - [x] Rating 
+
+
+## Workshop 2 - MongoDB Database
+
+### setup Database
+- [ ] Install mongoose `npm i mongoose`
+- [ ] Connect to Db
+  
+### Refactor Movies to use mongoose
+- [ ] Add movie model
+
+- [ ] Add new resources
 
