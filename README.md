@@ -61,10 +61,12 @@ ___
 
 ### setup Database
 - [x] Install mongoose `npm i mongoose`
-- [ ] Connect to Db
+- [x] Connect to Db
   
 ### Refactor Movies to use mongoose
 - [ ] Add movie model
+ - [ ] Create movie Schema
+ - [ ] Create movie model
 
 - [ ] Add new resources
 
