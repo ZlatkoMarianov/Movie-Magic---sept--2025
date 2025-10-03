@@ -64,9 +64,10 @@ ___
 - [x] Connect to Db
   
 ### Refactor Movies to use mongoose
-- [ ] Add movie model
- - [ ] Create movie Schema
- - [ ] Create movie model
+- [x] Add movie model
+ - [x] Create movie Schema
+ - [x] Create movie model
+- [ ] Refactor movie service
 
 - [ ] Add new resources
 
