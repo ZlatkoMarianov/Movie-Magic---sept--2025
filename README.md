@@ -87,4 +87,5 @@ ___
 ### Show Cast on Details
 
 - [ ] Add new resources
+- [ ] Name in movie
 
