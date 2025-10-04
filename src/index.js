@@ -14,7 +14,7 @@ try {
       dbName: 'movie-magic-sept2025'
    });
 
-   console.log('Succesfully connected to DB!');
+   console.log('Successfully connected to DB!');
 } catch (err) {
    console.log('Cannot connect to DB, ', err.message);
 }

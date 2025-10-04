@@ -69,7 +69,7 @@ ___
  - [x] Create movie model
 - [x] import file movies to database
 - [x] Fix own property handlebars problem with lean method
-- [ ] General fix for own property problem
+- [x] General fix for own property problem
 - [ ] 
 
 - [ ] Add new resources
