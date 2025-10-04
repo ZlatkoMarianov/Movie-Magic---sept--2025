@@ -75,10 +75,12 @@ ___
 - [x] Refactor search
 
 ### Add Cast
+- [x] Add new resources
+- [x] Create Cast Controller
+- [ ] Create Cast Page
 - [ ] Add cast model
 - [ ] Create Cast Service
-- [ ] Create Cast Controller
-- [ ] 
+- [ ] Create Cast Functionality
 
 ### Attach Cast to Movie
 
