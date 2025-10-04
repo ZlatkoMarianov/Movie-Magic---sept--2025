@@ -77,7 +77,7 @@ ___
 ### Add Cast
 - [x] Add new resources
 - [x] Create Cast Controller
-- [ ] Create Cast Page
+- [x] Create Cast Page
 - [ ] Add cast model
 - [ ] Create Cast Service
 - [ ] Create Cast Functionality
