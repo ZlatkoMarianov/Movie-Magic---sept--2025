@@ -32,5 +32,23 @@ export default {
       // return movie.save();
 
       return Movie.create(movieData);
-   }
+   },
+   async attach(movieId, castId) {
+      // Attach method: find movie by id, validate, initialize casts and avoid duplicates
+      const movie = await Movie.findById(movieId);
+      if (!movie) {
+         throw new Error('Movie not found');
+      }
+
+      if (!Array.isArray(movie.casts)) {
+         movie.casts = [];
+      }
+
+      // avoid duplicate attach
+      if (!movie.casts.includes(castId)) {
+         movie.casts.push(castId);
+      }
+
+      return movie.save();
+   },
 };
