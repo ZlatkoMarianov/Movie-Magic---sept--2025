@@ -85,11 +85,13 @@ ___
 ### Attach Cast to Movie (relation)
 - [x] Add attach cast button 
 - [x] Add attach cast page
-- [ ] Add dynamic data to cast page
+- [x] Add dynamic data to cast page
+- [ ] Show cast list in cast page
 - [ ] Add relation between cast and movie
 - [ ] Attach cast functionality
 
 ### Show Cast on Details (population)
+
 
 
 ### Bonuses
