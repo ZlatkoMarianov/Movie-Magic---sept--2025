@@ -91,9 +91,9 @@ ___
 - [x] Attach cast functionality
 
 ### Show Cast on Details (population)
-- [ ] Show casts on details page
 - [x] Get movie casts filtered
-
+- [ ] Show casts on details page
+- [ ] Using population
 
 
 ### Bonuses
@@ -103,4 +103,5 @@ ___
 - [ ] Name in movie
 - [ ] Back reference from VSCode
 - [ ] Add movie views to a folder
+
 

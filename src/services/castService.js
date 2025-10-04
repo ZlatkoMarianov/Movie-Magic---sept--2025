@@ -5,8 +5,8 @@ export default {
       let query = Cast.find();
 
       if (filter.includes) {
-         query = query.in('_id', filter.includes); // Mongoose
-         // query = query.find({ '_id': { $in: filter.includes } }); // MongoDb
+         // query = query.in('_id', filter.includes); // Mongoose
+         query = query.find({ '_id': { $in: filter.includes } }); // MongoDb
       }
       return query;
    },
