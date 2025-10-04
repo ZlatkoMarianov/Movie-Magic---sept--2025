@@ -8,6 +8,10 @@ export default {
          // query = query.in('_id', filter.includes); // Mongoose
          query = query.find({ '_id': { $in: filter.includes } }); // MongoDb
       }
+
+      if (filter.excludes) {
+         query = query.nin('_id', filter.excludes);
+      }
       return query;
    },
    create(castData) {

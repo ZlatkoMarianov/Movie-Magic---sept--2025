@@ -98,8 +98,8 @@ ___
 
 ### Bonuses
 
+- [x] Filter casts if they are already attach
 - [ ] Add new resources
-- [ ] Filter casts if they are already attach
 - [ ] Name in movie
 - [ ] Back reference from VSCode
 - [ ] Add movie views to a folder
