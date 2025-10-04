@@ -78,7 +78,7 @@ ___
 - [x] Add new resources
 - [x] Create Cast Controller
 - [x] Create Cast Page
-- [ ] Add cast model
+- [x] Add cast model
 - [ ] Create Cast Service
 - [ ] Create Cast Functionality
 
@@ -88,4 +88,5 @@ ___
 
 - [ ] Add new resources
 - [ ] Name in movie
+- [ ] Back refference from VSCode
 
