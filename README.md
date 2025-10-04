@@ -68,7 +68,8 @@ ___
  - [x] Create movie Schema
  - [x] Create movie model
 - [x] import file movies to database
-- [ ] Fix own property handlebars problem with lean method
+- [x] Fix own property handlebars problem with lean method
+- [ ] General fix for own property problem
 - [ ] 
 
 - [ ] Add new resources
