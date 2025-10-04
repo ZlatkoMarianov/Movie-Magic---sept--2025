@@ -21,6 +21,6 @@ const castSchema = new Schema({
    },
 });
 
-const Cast = model('Cast, castSchema');
+const Cast = model('Cast', castSchema);
 
 export default Cast;
