@@ -3,7 +3,7 @@ import movieService from "../services/movieService.js";
 
 const movieController = Router();
 
-movieController.get(`/create`, (req, res) => { 
+movieController.get(`/create`, (req, res) => {
    res.render('create');
 });
 
@@ -19,15 +19,14 @@ movieController.get('/:movieId/details', async (req, res) => {
    const movie = await movieService.getOne(movieId);
 
    // TODO Prepare view data (temp solution)
-   const ratingViewData = '&#x2605;'.repeat(Math.round(movie.rating));
-
+   const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating));
 
    res.render('details', { movie, rating: ratingViewData });
 });
 
-movieController.get('/search', (req, res) => {
+movieController.get('/search', async (req, res) => {
    const filter = req.query;
-   const movies = movieService.getAll(filter);
+   const movies = await movieService.getAll(filter);
 
    res.render('search', { movies, filter, pageTitle: 'Search Movies' });
 });
