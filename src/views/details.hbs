@@ -22,7 +22,9 @@
         <p class='disc'>Description: {{movie.description}}</p>
         <p class='card-category'>Category: {{movie.category}}</p>
 
-        <a href="/movies/{{id}}/attach" class="details">Attach</a>
+        {{! id  --- movie._id }}
+
+        <a href='/movies/{{movie._id}}/attach' class='details'>Attach</a>
       </div>
     </div>
     <div class='card_right'>
