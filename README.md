@@ -92,8 +92,8 @@ ___
 
 ### Show Cast on Details (population)
 - [x] Get movie casts filtered
-- [ ] Show casts on details page
-- [ ] Using population
+- [x] Show casts on details page
+- [x] Using population
 
 
 ### Bonuses
