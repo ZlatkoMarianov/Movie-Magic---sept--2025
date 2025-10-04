@@ -86,8 +86,8 @@ ___
 - [x] Add attach cast button 
 - [x] Add attach cast page
 - [x] Add dynamic data to cast page
-- [ ] Show cast list in cast page
-- [ ] Add relation between cast and movie
+- [x] Show cast list in cast page
+- [x] Add relation between cast and movie
 - [ ] Attach cast functionality
 
 ### Show Cast on Details (population)
@@ -97,6 +97,7 @@ ___
 ### Bonuses
 
 - [ ] Add new resources
+- [ ] Filter casts if they are already attach
 - [ ] Name in movie
 - [ ] Back refference from VSCode
 - [ ] Add movie views to a folder
