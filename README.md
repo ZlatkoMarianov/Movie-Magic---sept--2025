@@ -79,14 +79,22 @@ ___
 - [x] Create Cast Controller
 - [x] Create Cast Page
 - [x] Add cast model
-- [ ] Create Cast Service
-- [ ] Create Cast Functionality
+- [x] Create Cast Service
+- [x] Create Cast Functionality
 
-### Attach Cast to Movie
+### Attach Cast to Movie (relation)
+- [x] Add attach cast button 
+- [ ] Add attach cast page
+- [ ] Add relation between cast and movie
+- [ ] Attach cast functionality
 
-### Show Cast on Details
+### Show Cast on Details (population)
+
+
+### Bonuses
 
 - [ ] Add new resources
 - [ ] Name in movie
 - [ ] Back refference from VSCode
+- [ ] Add movie views to a folder
 
