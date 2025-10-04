@@ -91,6 +91,8 @@ ___
 - [x] Attach cast functionality
 
 ### Show Cast on Details (population)
+- [ ] Show casts on details page
+- [x] Get movie casts filtered
 
 
 
