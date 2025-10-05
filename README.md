@@ -126,10 +126,12 @@ ___
  - [x] Return token to client
   
 ### Logout
-- [ ] Add logout action
-- [ ] Clear cookie
+- [x] Add logout action
+- [x] Clear cookie
   
 ### Authorization 
+- [x] Add auth middleware
+- [ ] Validate user authotication
 - [ ] 
 
 ### Dynamic Navigation
@@ -144,4 +146,5 @@ ___
 ### Bonus
 - [ ] Automatic login on register
 - [ ] Invalidate token on logout
+- [ ] Refresh token
 
