@@ -23,10 +23,11 @@
         <p class='card-category'>Category: {{movie.category}}</p>
 
         {{! id  --- movie._id }}
-
-        <a href='/movies/{{movie._id}}/attach' class='details'>Attach</a>
-        <a href='/movies/{{movie._id}}/edit' class='details'>Edit</a>
-        <a href='/movies/{{movie._id}}/delete' class='details'>Delete</a>
+        {{#if isCreator}}
+          <a href='/movies/{{movie._id}}/attach' class='details'>Attach</a>
+          <a href='/movies/{{movie._id}}/edit' class='details'>Edit</a>
+          <a href='/movies/{{movie._id}}/delete' class='details'>Delete</a>
+        {{/if}}
       </div>
     </div>
     <div class='card_right'>
