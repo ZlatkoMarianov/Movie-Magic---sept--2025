@@ -136,8 +136,11 @@ ___
 - [x] Add isGuest route guard
 
 ### Dynamic Navigation
-- [ ] Group navigation by user type (all, authenticated and guest)
-- [ ] add auth info to handlebars context
+- [x] Group navigation by user type (all, authenticated and guest)
+- [x] add auth info to handlebars context
+
+### Show creator control buttons
+
 
 ### Delete Movies
 - [ ] 
