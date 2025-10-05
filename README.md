@@ -124,4 +124,24 @@ ___
  - [x] Validate password
  - [x] Create token
  - [x] Return token to client
+  
+### Logout
+- [ ] Add logout action
+- [ ] Clear cookie
+  
+### Authorization 
+- [ ] 
+
+### Dynamic Navigation
+- [ ] 
+
+### Delete Movies
+- [ ] 
+
+### Edit Movies
+- [ ] 
+
+### Bonus
+- [ ] Automatic login on register
+- [ ] Invalidate token on logout
 
