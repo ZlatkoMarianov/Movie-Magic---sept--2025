@@ -113,7 +113,7 @@ ___
 - [x] Add new controller `authController`
 - [x] Add registration page
 - [x] Add User model
-- [ ] Add User service
+- [x] Add User service
 - [ ] Handle registration (create user in database)
 - [ ] Add password hashing
   
