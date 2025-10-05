@@ -119,8 +119,9 @@ ___
   
 ### Login
 - [x] Add login page
-- [ ] Handle login page
+- [x] Handle login page
  - [x] Validate user
  - [x] Validate password
  - [x] Create token
+ - [x] Return token to client
 
