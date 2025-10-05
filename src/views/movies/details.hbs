@@ -25,6 +25,8 @@
         {{! id  --- movie._id }}
 
         <a href='/movies/{{movie._id}}/attach' class='details'>Attach</a>
+        <a href='/movies/{{movie._id}}/edit' class='details'>Edit</a>
+        <a href='/movies/{{movie._id}}/delete' class='details'>Delete</a>
       </div>
     </div>
     <div class='card_right'>
@@ -35,7 +37,7 @@
     {{#each movie.casts}}
       <div class='cast-card'>
         <div class='card-img'>
-          <img src="{{imageUrl}}" alt='{{name}}' />
+          <img src='{{imageUrl}}' alt='{{name}}' />
         </div>
         <div class='cast-info'>
           <h1>{{name}}</h1>
