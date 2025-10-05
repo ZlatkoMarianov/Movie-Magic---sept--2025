@@ -26,13 +26,12 @@ export default {
       // return Movie.findById(movieId).populate('casts');
       return Movie.findById(movieId);
    },
-   create(movieData) {
-      movieData.rating = Number(movieData.rating);
-
-      // const movie = new Movie(movieData);
-      // return movie.save();
-
-      return Movie.create(movieData);
+   create(movieData, userId) {
+      return Movie.create({
+         ...movieData,
+         rating: Number(movieData.rating),
+         creator: userId,
+      });
    },
    async attach(movieId, castId) {
       // Attach method: find movie by id, validate, initialize casts and avoid duplicates
