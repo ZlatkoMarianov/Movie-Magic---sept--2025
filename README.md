@@ -114,9 +114,13 @@ ___
 - [x] Add registration page
 - [x] Add User model
 - [x] Add User service
-- [ ] Handle registration (create user in database)
-- [ ] Add password hashing
+- [x] Handle registration (create user in database)
+- [x] Add password hashing
   
 ### Login
-- [ ] 
+- [ ] Add login page
+- [ ] Handle login page
+- [ ] Validate user
+- [ ] Validate password
+- [ ] Create token
 
