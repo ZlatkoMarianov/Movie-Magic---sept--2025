@@ -104,4 +104,19 @@ ___
 - [ ] Back reference from VSCode
 - [ ] Add movie views to a folder
 
+## Workshop 3 - Session and Authentication
+
+### Initial Setup
+- [x] Add resources
+
+### Registration 
+- [ ] Add new controller `authController`
+- [ ] Add registration page
+- [ ] Add User model
+- [ ] Add User service
+- [ ] Handle registration (create user in database)
+- [ ] Add password hashing
+  
+### Login
+- [ ] 
 
