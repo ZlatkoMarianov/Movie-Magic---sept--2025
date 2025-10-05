@@ -130,9 +130,9 @@ ___
 - [x] Clear cookie
   
 ### Authorization 
+- [x] Install cookie parser
 - [x] Add auth middleware
-- [ ] Validate user authotication
-- [ ] 
+- [x] Add route guard
 
 ### Dynamic Navigation
 - [ ] 
