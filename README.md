@@ -152,7 +152,8 @@ ___
 
 ### Edit Movies
 - [x] Add edit page
-- [ ] Add dynamic movie data to edit page
+- [x] Add dynamic movie data to edit page
+- [x] Handle edit page
 
 ### Bonus
 - [ ] Automatic login on register
