@@ -151,7 +151,7 @@ ___
 - [X] Add creator validation
 
 ### Edit Movies
-- [ ] 
+- [ ] Add edit page
 
 ### Bonus
 - [ ] Automatic login on register
