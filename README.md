@@ -151,10 +151,12 @@ ___
 - [X] Add creator validation
 
 ### Edit Movies
-- [ ] Add edit page
+- [x] Add edit page
+- [ ] Add dynamic movie data to edit page
 
 ### Bonus
 - [ ] Automatic login on register
 - [ ] Invalidate token on logout
-- [ ] Refresh token
+- [ ] Refresh token 
+- [ ] Edit categories
 
