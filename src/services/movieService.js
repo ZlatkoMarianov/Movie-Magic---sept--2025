@@ -51,4 +51,7 @@ export default {
 
       return movie.save();
    },
+   delete(movieId) {
+      return Movie.findByIdAndDelete(movieId)
+   },
 };

@@ -147,7 +147,7 @@ ___
  
 
 ### Delete Movies
-- [ ] 
+- [x] Add delete action 
 
 ### Edit Movies
 - [ ] 
