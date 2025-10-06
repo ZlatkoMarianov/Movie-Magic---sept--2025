@@ -148,6 +148,7 @@ ___
 
 ### Delete Movies
 - [x] Add delete action 
+- [X] Add creator validation
 
 ### Edit Movies
 - [ ] 
