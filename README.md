@@ -156,8 +156,8 @@ ___
 - [x] Handle edit page
 
 ### Bonuses
-- [ ] Automatic login on register
-- [x] Edit categories `not ready!!!!`
+- [x] Automatic login on register
+- [x] Edit categories
 - [ ] Invalidate token on logout
 - [ ] Refresh token 
 
