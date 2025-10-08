@@ -99,10 +99,10 @@ ___
 ### Bonuses
 
 - [x] Filter casts if they are already attach
-- [ ] Add new resources
+- [ ] Env variables
 - [ ] Name in movie
 - [ ] Back reference from VSCode
-- [ ] Add movie views to a folder
+- [x] Add movie views to a folder
 
 ## Workshop 3 - Session and Authentication
 
@@ -155,9 +155,10 @@ ___
 - [x] Add dynamic movie data to edit page
 - [x] Handle edit page
 
-### Bonus
+### Bonuses
 - [ ] Automatic login on register
+- [x] Edit categories `not ready!!!!`
 - [ ] Invalidate token on logout
 - [ ] Refresh token 
-- [ ] Edit categories
+
 
