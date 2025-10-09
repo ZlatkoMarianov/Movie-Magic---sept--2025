@@ -163,10 +163,17 @@ ___
 
 ### Workshop 4 - Validation and Error handling
 
+- [x] Add resources
+
 ### Validate
 - [x] Validate movie
 - [x] Validate cast
-- [ ] Validate user
+- [x] Validate user
+- [x] BONUS: Validate password in model 
+  
+### Error Handling
+- [ ] Add static error notification conteiner
+- [ ] 
 
 ###
 - [ ] Dynamic year check
