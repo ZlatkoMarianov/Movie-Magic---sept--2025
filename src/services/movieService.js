@@ -23,8 +23,8 @@ export default {
    },
    getOne(movieId) {
       // return Movie.findOne({ _id: movieId });
-      // return Movie.findById(movieId).populate('casts');
-      return Movie.findById(movieId);
+      return Movie.findById(movieId).populate('casts');
+      // return Movie.findById(movieId);
    },
    create(movieData, userId) {
       return Movie.create({
