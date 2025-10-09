@@ -18,6 +18,22 @@ const userSchema = new Schema({
    }
 });
 
+// Validate rePassword
+userSchema.virtual('rePassword')
+   .get(function () {
+      return this._rePassword;
+   }) 
+   .set(function (value) {
+      this._rePassword = value;
+   });
+
+userSchema.pre('validate', function () {
+   if (this.isNew && this.password !== this.rePassword) {
+      // throw new Error
+      this.invalidate('rePassword', 'Password mismatch!');
+   }
+});
+
 // Hash password
 userSchema.pre('save', async function () {
    //Generate salt

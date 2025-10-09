@@ -5,20 +5,25 @@ import { generateAuthToken } from "../utils/tokenUtils.js";
 
 export default {
    async register(userData) {
-      const user = await User.create(userData);
-
       // const count = await User.countDocuments({ email: userData.email });
       // if (count > 0) {
       //    throw new Error('User already exists!');
       // }
 
-      const userExsits = await User.exists({ email: userData.email });
-      if (userExsits) {
+      const userExist = await User.exists({ email: userData.email });   
+      if (userExist) {
          throw new Error('User already exists!');
       }
 
-      const token = generateAuthToken(user);
+      //check if password
+      if (userData.password !== userData.rePassword) {
+         throw new Error('Password mismatch');
+      }
 
+      const user = await User.create(userData);
+
+      const token = generateAuthToken(user);
+ 
       return token;
    },
    async login(email, password) {
