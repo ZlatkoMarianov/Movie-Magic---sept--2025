@@ -161,4 +161,7 @@ ___
 - [ ] Invalidate token on logout
 - [ ] Refresh token 
 
-
+### Workshop 4 - Validation and Error handling
+- [ ] Validate movie
+- [ ] Validate cast
+- [ ] Validate user
