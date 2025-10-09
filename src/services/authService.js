@@ -7,6 +7,16 @@ export default {
    async register(userData) {
       const user = await User.create(userData);
 
+      // const count = await User.countDocuments({ email: userData.email });
+      // if (count > 0) {
+      //    throw new Error('User already exists!');
+      // }
+
+      const userExsits = await User.exists({ email: userData.email });
+      if (userExsits) {
+         throw new Error('User already exists!');
+      }
+
       const token = generateAuthToken(user);
 
       return token;
@@ -30,6 +40,6 @@ export default {
       // Create token
       const token = generateAuthToken(user);
 
-      return token; 
+      return token;
    },
 };
