@@ -6,11 +6,15 @@ const userSchema = new Schema({
    email: {
       type: String,
       required: true,
-      unique: true,
+      unique: [true, 'Email should be unique!'],
+      match: [/[A-Za-z0-9]+\.[A-Za-z0-9]+$/],
+      minLength: [10, 'Email should be at least 10 characters long!'],
    },
    password: {
       type: String,
-      required: true,
+      required: [true, 'Password is required'],
+      match: [/^[A-Za-z0-9]+$/],
+      minLength: [6, 'Password should be at least 6 characters long!'],
    }
 });
 
