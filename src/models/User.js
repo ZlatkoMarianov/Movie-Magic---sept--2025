@@ -5,7 +5,7 @@ import bcrypt from 'bcrypt';
 const userSchema = new Schema({
    email: {
       type: String,
-      required: true,
+      required: [true, 'User email is required'],
       unique: [true, 'Email should be unique!'],
       match: [/[A-Za-z0-9]+\.[A-Za-z0-9]+$/],
       minLength: [10, 'Email should be at least 10 characters long!'],
@@ -22,7 +22,7 @@ const userSchema = new Schema({
 userSchema.virtual('rePassword')
    .get(function () {
       return this._rePassword;
-   }) 
+   })
    .set(function (value) {
       this._rePassword = value;
    });

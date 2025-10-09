@@ -172,8 +172,8 @@ ___
 - [x] BONUS: Validate password in model 
   
 ### Error Handling
-- [ ] Add static error notification conteiner
-- [ ] 
+- [x] Add static error notification conteiner
+- [ ] User register error handling
 
 ###
 - [ ] Dynamic year check
