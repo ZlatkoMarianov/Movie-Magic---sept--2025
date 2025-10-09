@@ -162,6 +162,13 @@ ___
 - [ ] Refresh token 
 
 ### Workshop 4 - Validation and Error handling
-- [ ] Validate movie
-- [ ] Validate cast
+
+### Validate
+- [x] Validate movie
+- [x] Validate cast
 - [ ] Validate user
+
+###
+- [ ] Dynamic year check
+- [ ] Character name 
+ 
