@@ -172,10 +172,13 @@ ___
 - [x] BONUS: Validate password in model 
   
 ### Error Handling
-- [x] Add static error notification conteiner
-- [ ] User register error handling
+- [x] Add static error notification container
+- [x] User register error handling
+- [x] Render error container conditionally
+- [ ] Retain form data on error
 
 ###
 - [ ] Dynamic year check
 - [ ] Character name 
+
  
