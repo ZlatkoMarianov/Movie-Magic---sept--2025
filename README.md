@@ -178,8 +178,8 @@ ___
 - [x] Retain form data on error
 - [x] Extract get error message
 - [x] User login error handling
-- [ ] Create movie error handling
-- [ ] BONUS: retain movie category after error
+- [x] Create movie error handling
+- [x] BONUS: retain movie category after error
 
 ###
 - [ ] Dynamic year check
