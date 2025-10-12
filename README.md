@@ -180,6 +180,7 @@ ___
 - [x] User login error handling
 - [x] Create movie error handling
 - [x] BONUS: retain movie category after error
+- [x] Create cast error handling
 
 ###
 - [ ] Dynamic year check
