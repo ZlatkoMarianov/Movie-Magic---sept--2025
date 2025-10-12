@@ -175,7 +175,9 @@ ___
 - [x] Add static error notification container
 - [x] User register error handling
 - [x] Render error container conditionally
-- [ ] Retain form data on error
+- [x] Retain form data on error
+- [x] Extract get error message
+- [x] User login error handling
 
 ###
 - [ ] Dynamic year check
